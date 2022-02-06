@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+}
+
+.index {
+  display: flex;
+}
+
+/* p {
+  font-family: 'Droid Sans', sans-serif;
+} */
+
+.incredible {
+  background-color: #2d3e4f;
+}
+
+.incredible__link {
+  text-decoration: none;
+
+  color: #ffffff;
+}
+
+.incredible__title {
+  color: #cf404d;
+  font-size: 30px;
+  line-height: 25px;
+  padding: 205px 95px 60px 95px;
+  margin-top: 0;
+}
+
+.incredible__list {
+  margin: 0 auto;
+}
+
+.incredible__item {
+  list-style: none;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.incredible__item .active {
+  color: #cf404d;
+}
+
+.section {
+  width: 100%;
+}
+
+.container {
+  max-width: 1110px;
+}
+
+.main {
+  background-color: #940994;
+  background-image: url("../img/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 800px;
+}
+
+.main__block {
+  padding: 305px 245px;
+  margin: 0 auto;
+ }
+
+.main__title {
+  color: #ffffff;
+  font-size: 50px;
+  line-height: 44px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.main__description {
+  margin-top: -35px;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.main__button {
+  color: #ffffff;
+  padding: 15px 22px;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  margin: 35px 5px 0;
+}
+
+.main__button-light {
+  background: transparent;
+  border: 2px solid #ffffff;
+  border-radius: 4px;
+}
+
+.main__button-dark {
+  background: #cf404d;
+  border: 2px solid #cf404d;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+}
