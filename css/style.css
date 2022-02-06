@@ -114,11 +114,15 @@ a {
   border-radius: 4px;
 }
 
-.heading {
+.heading,
+.lightbox,
+.contact {
   padding: 63px 0;
 }
 
-.heading__title {
+.heading__title,
+.lightbox__title,
+.contact__title {
   font-size: 31px;
   line-height: 36px;
   text-transform: uppercase;
@@ -126,7 +130,9 @@ a {
   text-align: center;
 }
 
-.heading__description {
+.heading__description,
+.lightbox__description,
+.contact__description {
   font-family: "Droid Sans", sans-serif;
   font-size: 19px;
   line-height: 30px;
@@ -180,7 +186,7 @@ a {
 }
 
 .header__content {
-  padding: 44px 0;
+  padding: 24px 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -200,4 +206,75 @@ a {
   border: 2px solid #ffffff;
   box-sizing: border-box;
   border-radius: 4px;
+}
+
+.lightbox__box {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.lightbox__box-item {
+  margin: 10px;
+}
+
+.contact {
+  background: #fafafa;
+}
+.contact__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__input {
+  width: 100%;
+}
+
+.contact__input:first-child {
+  margin-right: 20px;
+}
+
+.contact__input input {
+  min-height: 45px;
+  width: 100%;
+  margin-bottom: 17px;
+  background: #ffffff;
+  border: none;
+  box-shadow: 0px 0px 0px rgba(64, 64, 71, 0.3);
+  border-radius: 3px;
+  padding-left: 30px;
+}
+
+.form__content {
+  max-width: 582px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.contact__textarea {
+  width: 100%;
+  
+}
+
+.contact__textarea textarea {
+  background: #ffffff;
+  border: none;
+  box-shadow: 0px 0px 0px rgba(64, 64, 71, 0.3);
+  border-radius: 3px;
+  padding-left: 30px;
+  padding-top: 20px;
+  outline: none;
+  resize: none;
+  max-height: 110px;
+  margin-bottom: 17px;
+}
+
+.contact__button {
+  border: none;
+  background: #cf404d;
+  border-radius: 4px;
+  padding: 10px;
+  color: #ffffff;
 }
