@@ -7,21 +7,19 @@ body {
   font-weight: normal;
 }
 
+a {
+  text-decoration: none;
+}
+
 .index {
   display: flex;
 }
-
-/* p {
-  font-family: 'Droid Sans', sans-serif;
-} */
 
 .incredible {
   background-color: #2d3e4f;
 }
 
 .incredible__link {
-  text-decoration: none;
-
   color: #ffffff;
 }
 
@@ -54,7 +52,8 @@ body {
 }
 
 .container {
-  max-width: 1110px;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .main {
@@ -68,7 +67,7 @@ body {
 .main__block {
   padding: 305px 245px;
   margin: 0 auto;
- }
+}
 
 .main__title {
   color: #ffffff;
@@ -93,6 +92,7 @@ body {
 }
 
 .main__button {
+  cursor: pointer;
   color: #ffffff;
   padding: 15px 22px;
   font-size: 16px;
@@ -112,5 +112,92 @@ body {
   border: 2px solid #cf404d;
   box-sizing: border-box;
   border-radius: 4px;
+}
 
+.heading {
+  padding: 63px 0;
+}
+
+.heading__title {
+  font-size: 31px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #313131;
+  text-align: center;
+}
+
+.heading__description {
+  font-family: "Droid Sans", sans-serif;
+  font-size: 19px;
+  line-height: 30px;
+  color: rgba(115, 115, 115, 0.74);
+  text-align: center;
+}
+
+.heading__section {
+  margin-top: 60px;
+  display: flex;
+}
+
+.heading__item {
+  max-width: 240px;
+}
+
+.heading__item-img {
+  width: 100px;
+  height: 100px;
+}
+
+.heading__item-img img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading__item-title {
+  font-size: 17px;
+  line-height: 30px;
+  text-transform: uppercase;
+
+  color: #313131;
+}
+
+.heading__item-description {
+  font-family: Droid Sans;
+  font-size: 15px;
+  line-height: 20px;
+  color: rgba(0, 0, 0, 0.74);
+}
+
+.heading__item-link {
+  font-size: 16px;
+  line-height: 20px;
+  color: #cf404d;
+}
+
+.header {
+  background: #cf404d;
+}
+
+.header__content {
+  padding: 44px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__content-text {
+  font-size: 31px;
+  line-height: 36px;
+  color: #ffffff;
+}
+
+.header__content-button {
+  color: #ffffff;
+  padding: 11px 22px;
+  background-color: transparent;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
