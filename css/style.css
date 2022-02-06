@@ -17,6 +17,7 @@ a {
 
 .incredible {
   background-color: #2d3e4f;
+  position: relative;
 }
 
 .incredible__link {
@@ -46,6 +47,24 @@ a {
 .incredible__item .active {
   color: #cf404d;
 }
+
+.incredible__social {
+  position: absolute;
+  bottom: 1%;
+  left: 10%;
+
+}
+
+.incredible__social-list {
+  display: flex;
+}
+
+.incredible__social-list {
+  list-style: none;
+}
+
+
+
 
 .section {
   width: 100%;
@@ -253,10 +272,6 @@ a {
   padding-top: 30px;
 }
 
-.contact__textarea {
-  width: 100%;
-  
-}
 
 .contact__textarea textarea {
   background: #ffffff;
@@ -267,6 +282,7 @@ a {
   padding-top: 20px;
   outline: none;
   resize: none;
+  width: 100%;
   max-height: 110px;
   margin-bottom: 17px;
 }
@@ -277,4 +293,13 @@ a {
   border-radius: 4px;
   padding: 10px;
   color: #ffffff;
+}
+
+.copiright__content {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-size: 16px;
+line-height: 20px;
+  color: rgba(0, 0, 0, 0.74);
+  padding: 25px;
 }
